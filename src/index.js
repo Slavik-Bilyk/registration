@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter  basename='/Registration-and-Login'>
+        <BrowserRouter  basename='/registration'>
           <App />
         </BrowserRouter>
       </PersistGate>
